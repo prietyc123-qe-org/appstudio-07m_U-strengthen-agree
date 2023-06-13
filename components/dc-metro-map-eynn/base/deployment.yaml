@@ -25,7 +25,7 @@ spec:
         app.kubernetes.io/instance: dc-metro-map-eynn
     spec:
       containers:
-      - image: nodejs-image:latest
+      - image: quay.io/pkumari_org/release-dev-eqtz/appstudio/dc-metro-map-eynn@sha256:b29e1a54555f511b93c9ae64e2835f8c7ba01628dd4f4a0758deb8cf3a94d00c
         name: my-nodejs
         ports:
         - containerPort: 3001
